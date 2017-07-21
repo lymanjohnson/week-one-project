@@ -16,7 +16,7 @@ Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
 
 font-family: 'Roboto', sans-serif;
-font-family: 'Lara', sans-serif;
+font-family: 'Merriweather', sans-serif;
 
 */
 
@@ -30,7 +30,7 @@ font-family: 'Lara', sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: 'Lara', serif;
+  font-family: 'Merriweather', serif;
   color: #131511;
 }
 
@@ -51,18 +51,22 @@ body{
 header{
   height: 100px;
   background-color: #FFFFFF;
+  border: 1px solid blue;
   /*vertical-align: middle;*/
 }
 
 header ul, header li{
   border: 1px solid red;
-  vertical-align: middle;
+
+}
+
+header li{
+  margin: 0;
 }
 
 #logo{
-  float: left;
-  height: 30px;
-  padding: 5px 0px 5px 15px;
+  position: absolute;
+  width:80px;
 }
 
 header ul{
@@ -71,22 +75,24 @@ header ul{
   justify-content: center;
   list-style: none;
   color: #131511;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-decoration: underline;
+  margin: 0px;
+  padding: 0px;
 }
 
-header ul li{
-  margin: 40px;
-}
+/*header ul li{*/
+  /*margin: 40px;*/
+/*}*/
 
 main ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  /*list-style: none;*/
+  /*padding: 0;*/
+  /*margin: 0;*/
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  /*flex-wrap: wrap;*/
 }
 
 /*main li{
@@ -96,16 +102,16 @@ main ul{
 }*/
 
 main img{
-  height: 300px;
+  /*height: 300px;*/
 }
 
 .product p{
-  background-color: #131511;
-  color: white;
-  display: inline-block;
-  padding: 20px;
-  position: absolute;
-  margin-top: -100px;
+  /*background-color: #131511;*/
+  /*color: white;*/
+  /*display: inline-block;*/
+  /*padding: 20px;*/
+  /*position: absolute;*/
+  /*margin-top: -100px;*/
   /*margin: -20px 0px 0px -100px;*/
 
 }
