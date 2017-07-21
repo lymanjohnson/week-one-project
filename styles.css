@@ -20,13 +20,12 @@ font-family: 'Merriweather', sans-serif;
 
 */
 
+/*General Stuff*/
+
 #wrapper{
-  width: 1000px;
+  width: 90%;
   margin: 0 auto;
   border: 5px solid red;
-  /*display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;*/
 }
 
 h1, h2, h3 {
@@ -34,42 +33,42 @@ h1, h2, h3 {
   color: #131511;
 }
 
-h1{
-  font-size: 32pt;
-  text-align: center;
-}
-
-h2{
-  font-size: 24pt;
-  text-align: center;
-}
-
 body{
   background-color: #F2F1E8;
 }
 
+h1{
+  font-size: 32pt;
+  text-align: center;
+  font-weight: lighter;
+}
+
+h2{
+  font-size: 18pt;
+  font-weight: 100;
+  text-align: center;
+}
+
+h3{
+  font-size: 14pt;
+  font-weight: 100;
+}
+
+/*Nav Bar Stuff*/
+
 header{
-  height: 100px;
+  height: 80px;
   background-color: #FFFFFF;
   border: 1px solid blue;
-  /*vertical-align: middle;*/
 }
-
-header ul, header li{
-  border: 1px solid red;
-
-}
-
-header li{
-  margin: 0;
-}
-
 #logo{
   position: absolute;
-  width:80px;
+  width: 50px;
+  padding: 15px;
 }
 
-header ul{
+.nav-container{
+  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -82,36 +81,73 @@ header ul{
   padding: 0px;
 }
 
-/*header ul li{*/
-  /*margin: 40px;*/
-/*}*/
-
-main ul{
-  /*list-style: none;*/
-  /*padding: 0;*/
-  /*margin: 0;*/
-  /*display: flex;*/
-  /*justify-content: space-between;*/
-  /*flex-wrap: wrap;*/
+.nav-button{
+  border: 1px solid red;
+  margin: 30px;
 }
 
-/*main li{
-  flex-basis: 50%;
-  flex-grow: 0;
-  flex-shrink: 1;
-}*/
+/*Index Page Pictures Stuff*/
 
-main img{
-  /*height: 300px;*/
+#top-row{
+  display:flex;
+  flex-wrap: nowrap; /*don't really need this*/
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0px;
+  height: 200px;
 }
 
-.product p{
-  /*background-color: #131511;*/
-  /*color: white;*/
-  /*display: inline-block;*/
-  /*padding: 20px;*/
-  /*position: absolute;*/
-  /*margin-top: -100px;*/
-  /*margin: -20px 0px 0px -100px;*/
+#bottom-row{
+  display:flex;
+  flex-wrap: nowrap; /*don't really need this*/
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0px;
+  height: 100px;
+}
 
+#top-row .product-li{
+  background-size: cover;
+  margin: 5px;
+  border: 1px solid red;
+  width: 50px;
+}
+
+#bottom-row .product-li{
+  background-size: cover;
+  margin: 5px;
+  border: 1px solid red;
+  width: 50px;
+}
+
+#product1{
+  flex-grow: 4;
+  background: url(./images/product-1.jpg);
+}
+#product2{
+  background: url(./images/product-2.jpg);
+  flex-grow: 1;
+}
+#product3{
+  background: url(./images/product-3.jpg);
+  flex-grow: 1;
+}
+
+#product4{
+  flex-grow: 1;
+  background: url(./images/product-4.jpg);
+}
+#product5{
+  background: url(./images/product-5.jpg);
+  flex-grow: 1;
+}
+#product6{
+  background: url(./images/product-6.jpg);
+  flex-grow: 3;
+}
+#product7{
+  background: url(./images/product-7.jpg);
+  flex-grow: 1;
 }
