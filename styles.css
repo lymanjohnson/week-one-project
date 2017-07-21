@@ -95,7 +95,7 @@ header{
   justify-content: space-between;
   list-style: none;
   padding: 0px;
-  height: 200px;
+  height: 300px;
 }
 
 #bottom-row{
@@ -105,21 +105,21 @@ header{
   justify-content: space-between;
   list-style: none;
   padding: 0px;
-  height: 100px;
+  height: 150px;
 }
 
 #top-row .product-li{
   background-size: cover;
   margin: 5px;
   border: 1px solid red;
-  width: 50px;
+  /*width: 300px;*/
 }
 
 #bottom-row .product-li{
   background-size: cover;
   margin: 5px;
   border: 1px solid red;
-  width: 50px;
+  /*width: 200px;*/
 }
 
 #product1{
@@ -150,4 +150,14 @@ header{
 #product7{
   background: url(./images/product-7.jpg);
   flex-grow: 1;
+}
+
+#top-row #content-box{
+  font: inherit;
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+
 }
