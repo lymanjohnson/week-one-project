@@ -23,9 +23,8 @@ font-family: 'Merriweather', sans-serif;
 /*General Stuff*/
 
 #wrapper{
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  border: 5px solid red;
 }
 
 h1, h2, h3 {
@@ -59,7 +58,6 @@ h3{
 header{
   height: 80px;
   background-color: #FFFFFF;
-  border: 1px solid blue;
 }
 #logo{
   position: absolute;
@@ -68,7 +66,6 @@ header{
 }
 
 .nav-container{
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -82,7 +79,6 @@ header{
 }
 
 .nav-button{
-  border: 1px solid red;
   margin: 30px;
 }
 
@@ -110,6 +106,7 @@ header{
 
 #top-row .product-li{
   background-size: cover;
+  background-position: center;
   margin: 5px;
   border: 1px solid red;
   /*width: 300px;*/
@@ -117,8 +114,8 @@ header{
 
 #bottom-row .product-li{
   background-size: cover;
+  background-position: center;
   margin: 5px;
-  border: 1px solid red;
   /*width: 200px;*/
 }
 
@@ -147,17 +144,38 @@ header{
   background: url(./images/product-6.jpg);
   flex-grow: 3;
 }
+
 #product7{
   background: url(./images/product-7.jpg);
   flex-grow: 1;
 }
 
-#top-row #content-box{
-  font: inherit;
-  background-color: black;
+#top-row .content-box{
+  background-color: #131511;
   color: white;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+  margin-top: 230px;
+}
 
+#bottom-row .content-box{
+  background-color: #131511;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+  margin-top: 90px;
+}
+
+footer{
+  height: 80px;
+  background-color: #131511;
+  padding-top: 10px;
+}
+
+footer p{
+  font: inherit;
+  color: white;
+  margin: 30px;
 }
