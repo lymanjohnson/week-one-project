@@ -179,3 +179,16 @@ footer p{
   color: white;
   margin: 30px;
 }
+
+
+
+/* Newsletter */
+
+#newsletter-bg img{
+  height: 100%;
+  width: 100%;
+}
+
+/*#newsletter-bg{
+  background: url(./images/background-2.jpg);
+}*/
