@@ -23,6 +23,7 @@ font-family: 'Lato', sans-serif;
 #wrapper{
   width: 1000px;
   margin: 0 auto;
+  border: 5px solid red;
   /*display: flex;
   flex-wrap: wrap;
   justify-content: space-around;*/
@@ -78,6 +79,28 @@ header ul, header li{
 }
 
 .main-navigation li {
+  padding: 20px;
+
+}
+
+.product img{
+  height: 400px;
+  flex-basis: auto;
+  flex-shrink: 1;
+  margin: -20px 0px 0px -100px;
+}
+
+main{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product p{
+  background-color: #131511;
+  color: white;
+  display: inline-block;
   padding: 20px;
 
 }
