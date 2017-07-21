@@ -83,12 +83,21 @@ header ul, header li{
 
 }
 
-.product img{
-  height: 400px;
-  flex-basis: auto;
-  flex-shrink: 1;
-  margin: -20px 0px 0px -100px;
+.product{
+  height: 100px;
+  /*flex-basis: auto;
+  flex-shrink: 1;*/
 }
+
+.image-wrapper{
+  display: flex;
+  height: 200px;
+}
+
+.image-wrapper img{
+  flex-shrink: 0
+}
+
 
 main{
 
@@ -102,5 +111,6 @@ main{
   color: white;
   display: inline-block;
   padding: 20px;
+  /*margin: -20px 0px 0px -100px;*/
 
 }
