@@ -16,7 +16,7 @@ Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
 
 font-family: 'Roboto', sans-serif;
-font-family: 'Lato', sans-serif;
+font-family: 'Lara', sans-serif;
 
 */
 
@@ -89,11 +89,11 @@ main ul{
   flex-wrap: wrap;
 }
 
-main li{
-  flex-basis: 30%;
+/*main li{
+  flex-basis: 50%;
   flex-grow: 0;
   flex-shrink: 1;
-}
+}*/
 
 main img{
   height: 300px;
@@ -104,6 +104,8 @@ main img{
   color: white;
   display: inline-block;
   padding: 20px;
+  position: absolute;
+  margin-top: -100px;
   /*margin: -20px 0px 0px -100px;*/
 
 }
