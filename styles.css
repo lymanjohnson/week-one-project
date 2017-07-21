@@ -1,0 +1,83 @@
+/*
+
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+
+*/
+
+#wrapper{
+  width: 1000px;
+  margin: 0 auto;
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;*/
+}
+
+h1, h2, h3 {
+  font-family: 'Lara', serif;
+  color: #131511;
+}
+
+h1{
+  font-size: 32pt;
+  text-align: center;
+}
+
+h2{
+  font-size: 24pt;
+  text-align: center;
+}
+
+body{
+  background-color: #F2F1E8;
+}
+
+header{
+  height: 100px;
+  background-color: #FFFFFF;
+  /*vertical-align: middle;*/
+}
+
+header ul, header li{
+  border: 1px solid red;
+  vertical-align: middle;
+}
+
+#logo{
+  float: left;
+  height: 30px;
+  padding: 5px 0px 5px 15px;
+}
+
+.main-navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  list-style: none;
+  color: #131511;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+
+}
+
+.main-navigation li {
+  padding: 20px;
+
+}
