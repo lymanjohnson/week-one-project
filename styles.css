@@ -20,7 +20,7 @@ font-family: 'Merriweather', sans-serif;
 
 */
 
-/*General Stuff*/
+/*General*/
 
 #wrapper{
   width: 100%;
@@ -60,10 +60,10 @@ header{
   background-color: #FFFFFF;
   z-index: 200;
 }
-#logo-container{
+#logo{
   position: absolute;
-  height: 20px;
-  padding: 5px;
+  width: 25px;
+  margin: 6px;
 }
 
 .nav-container{
@@ -84,15 +84,16 @@ header{
 }
 
 footer{
-  height: 40px;
+  height: 30px;
   background-color: #131511;
-  padding-top: 5px;
+
 }
 
 footer p{
   font: inherit;
   color: white;
-  margin-left: 30px;
+  margin-left: 20px;
+  padding-top: 8px;
 }
 
 /*Index Page Pictures Stuff*/
@@ -104,7 +105,7 @@ footer p{
   justify-content: space-between;
   list-style: none;
   padding: 0px;
-  height: 300px;
+  height: 325px;
 }
 
 #bottom-row{
@@ -114,7 +115,8 @@ footer p{
   justify-content: space-between;
   list-style: none;
   padding: 0px;
-  height: 150px;
+  height: 200px;
+  margin-top: -15px;
 }
 
 #top-row .product-li{
@@ -174,7 +176,7 @@ footer p{
   display: inline-block;
   padding: 10px;
   position: absolute;
-  margin-top: 230px;
+  margin-top: 250px;
 }
 
 #bottom-row .content-box{
@@ -183,11 +185,8 @@ footer p{
   display: inline-block;
   padding: 10px;
   position: absolute;
-  margin-top: 90px;
+  margin-top: 140px;
 }
-
-
-
 
 
 /* Newsletter */
@@ -195,6 +194,7 @@ footer p{
 #newsletter-bg img{
   height: 100%;
   width: 100%;
+  z-index: 50;
 }
 
 input[type="submit"]{
