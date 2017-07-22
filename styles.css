@@ -58,10 +58,11 @@ h3{
 header{
   height: 40px;
   background-color: #FFFFFF;
+  z-index: 200;
 }
-#logo{
+#logo-container{
   position: absolute;
-  width: 30px;
+  height: 20px;
   padding: 5px;
 }
 
