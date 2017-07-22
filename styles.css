@@ -217,12 +217,6 @@ form{
   margin-top: 5%;
 }
 
-label{
-  border: 0;
-  font-family: 'Merriweather', sans-serif;
-  font-size: 75%;
-}
-
 #name_input{
   border: none;
   font-family: 'Merriweather', sans-serif;
