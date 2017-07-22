@@ -45,6 +45,10 @@ h1{
 h2{
   font-size: 18pt;
   font-weight: 100;
+  text-align: left;
+}
+
+.title-area h2{
   text-align: center;
 }
 
