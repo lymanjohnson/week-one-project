@@ -122,14 +122,11 @@ footer p{
 #top-row .product-li{
   background-size: cover;
   margin: 5px;
-  border: 1px solid red;
-  /*width: 300px;*/
 }
 
 #bottom-row .product-li{
   background-size: cover;
   margin: 5px;
-  /*width: 200px;*/
 }
 
 #product1{
@@ -214,7 +211,6 @@ form{
   margin: 13%;
   background-color: white;
   width: 74%;
-  border: 1px solid red;
   z-index: 100;
   position: absolute;
   margin-top: -55%;
@@ -229,14 +225,14 @@ form{
   border: none;
   font-family: 'Merriweather', sans-serif;
   font-size: .7em;
-  width: 68%;
+  width: 100%;
 }
 
 #email_input {
   border: none;
   font-family: 'Merriweather', sans-serif;
   font-size: .7em;
-  width: 75%;
+  width: 100%;
 }
 
 .form-wrapper{
