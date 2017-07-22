@@ -236,3 +236,19 @@ form{
   margin: 2% 0 2% 10%;
   border-bottom: 1px solid lightgray;
 }
+
+#submit_container{
+  text-align: center;
+}
+
+#submit_button{
+  background-color: #968772;
+  border-radius: 2px;
+  color: #F2F1E8;
+  padding: 2% 4% 2% 4%;
+  margin:2%;
+  font-size: .7em;
+  text-transform: none;
+  /*Button Background (Hover): #967343
+  Button Text (Hover): #FFFFFF*/
+}
