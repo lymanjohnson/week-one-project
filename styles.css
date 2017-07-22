@@ -189,6 +189,56 @@ footer p{
   width: 100%;
 }
 
-/*#newsletter-bg{
-  background: url(./images/background-2.jpg);
-}*/
+input[type="submit"]{
+  background-color: #1fabe5;
+  color: white;
+  font: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 20px 15px 20px;
+  border-radius: 6px;
+  width: auto;
+  height: auto;
+  border: none;
+}
+
+form{
+  margin: 13%;
+  background-color: white;
+  width: 74%;
+  border: 1px solid red;
+  z-index: 100;
+  position: absolute;
+  margin-top: -55%;
+}
+
+#form-intro-text-container{
+  text-align: center;
+  margin-top: 5%;
+}
+
+label{
+  border: 0;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 75%;
+}
+
+#name_input{
+  border: none;
+  font-family: 'Merriweather', sans-serif;
+  font-size: .7em;
+  width: 68%;
+}
+
+#email_input {
+  border: none;
+  font-family: 'Merriweather', sans-serif;
+  font-size: .7em;
+  width: 75%;
+}
+
+.form-wrapper{
+  width: 80%;
+  margin: 2% 0 2% 10%;
+  border-bottom: 1px solid lightgray;
+}
