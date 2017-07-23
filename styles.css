@@ -278,28 +278,56 @@ form{
 }
 
 .left-image-w-description{
-  width: 250px;
+  width: 150px;
   margin: 0px 20px 20px 0px;
   float: left;
 }
 
 .left-image-w-description img{
-  width: 250px;
+  width: 150px;
 }
 
 blockquote{
   clear: both;
-  margin: 50px 0px 50px 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 5px 0px;
   border-left: 1px solid #968772;
+  padding-left: 30px;
+  font-style: italic;
 }
 
 .right-image-w-description{
-  width: 250px;
+  width: 150px;
   margin: 0px 0px 20px 20px;
   float: right;
   text-align: center;
 }
 
 .right-image-w-description img{
-  width: 250px;
+  width: 150px;
 }
+
+table, thead, th, td{
+  border-collapse: collapse;
+  border: 1px solid #046c97;
+  padding: 10px 10px 10px 10px;
+
+}
+
+.body-text-indent-wrapper{
+  padding: 0px 100px 50px 100px;
+}
+
+#row1, #row3{
+  background-color: #968772;
+}
+
+/*table{
+  width: 100%;
+}*/
+
+/*thead{
+  background: #1fabe5;
+  color: white;
+
+}*/
