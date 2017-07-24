@@ -79,12 +79,17 @@ header{
 
 #logo{
   position: absolute;
-  width: 200px;
-  height: 300px;
+  width: 30px;
+  height: 30px;
   margin: 6px;
   background:transparent url('images/bent-creek-logo.png') center top no-repeat;
-  /*background-color: red;*/
+  background-size: 25px;
   z-index: 400;
+}
+
+#logo:hover{
+  background:transparent url('images/bent-creek-logo-coral.png') center top no-repeat;
+  background-size: 25px;
 }
 
 .nav-container{
