@@ -58,11 +58,11 @@ h3{
   font-weight: 100;
 }
 
-a {
+p a {
   color: #968772;
 }
 
-a:hover{
+p a:hover{
   color: #967343;
 }
 
@@ -255,32 +255,33 @@ form{
   width: 74%;
   z-index: 100;
   position: absolute;
-  margin-top: -55%;
+  margin-top: -50%;
 }
 
 #form-intro-text-container{
   text-align: center;
-  margin-top: 5%;
+  padding: 1%;
 }
 
-#nameInput{
-  border: none;
-  font-family: 'Merriweather', sans-serif;
-  font-size: .7em;
-  width: 100%;
+.input-line{
+border: none;
+border-bottom: 1px solid #968772;
+font-family: 'Merriweather', sans-serif;
+font-size: .7em;
+width: 85%;
+margin: 2%;
 }
 
-#emailInput {
-  border: none;
-  font-family: 'Merriweather', sans-serif;
-  font-size: .7em;
-  width: 100%;
+.input-line:focus{
+  outline: none;
+  border-bottom: 1px solid #967343;
 }
+
 
 .form-wrapper{
   width: 80%;
   margin: 2% 0 2% 10%;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #968772;
 }
 
 #submit_container{
