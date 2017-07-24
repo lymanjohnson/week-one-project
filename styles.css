@@ -34,6 +34,8 @@ h1, h2, h3 {
 
 body{
   background-color: #F2F1E8;
+  margin: 0;
+  padding-top: .5%;
 }
 
 h1{
@@ -251,11 +253,15 @@ footer p{
 
 /* Newsletter */
 
-#newsletter-bg img{
-  height: 100%;
-  width: 100%;
-  z-index: 50;
+body[id="newsletter-body"]{
+  background-image: url(./images/background-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  /*width: 100%;*/
 }
+
 
 input[type="submit"]{
   background-color: #1fabe5;
@@ -271,17 +277,28 @@ input[type="submit"]{
 }
 
 form{
-  margin: 13%;
+  /*margin: 13%;*/
   background-color: white;
-  width: 74%;
+  width: auto;
+  padding: 10px 40px 10px 40px;
   z-index: 100;
   position: absolute;
-  margin-top: -50%;
+  /*margin-top: 10%;*/
+}
+
+#form-flex-wrapper{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #form-intro-text-container{
   text-align: center;
-  padding: 1%;
+  /*padding: 1%;*/
+  /*width: 90%;*/
 }
 
 .input-line{
