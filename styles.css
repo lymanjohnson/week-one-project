@@ -67,6 +67,10 @@ p a:hover{
   color: #967343;
 }
 
+p {
+  line-height: 200%;
+}
+
 /*Header and Footer*/
 
 header{
@@ -342,6 +346,10 @@ margin: 2%;
   float: left;
 }
 
+.left-image-w-description p{
+  line-height: 130%;
+}
+
 .left-image-w-description img{
   width: 150px;
 }
@@ -360,6 +368,10 @@ blockquote{
   margin: 0px 0px 20px 20px;
   float: right;
   text-align: center;
+}
+
+.right-image-w-description p{
+  line-height: 130%;
 }
 
 .right-image-w-description img{
