@@ -141,6 +141,13 @@ footer p{
 
 /*Index Page Pictures Stuff*/
 
+#rows-container{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content:stretch;
+}
+
 #top-row{
   display:flex;
   flex-wrap: nowrap; /*don't really need this*/
@@ -149,6 +156,8 @@ footer p{
   list-style: none;
   padding: 0px;
   height: 325px;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
 
 #bottom-row{
@@ -160,6 +169,8 @@ footer p{
   padding: 0px;
   height: 200px;
   margin-top: -15px;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
 
 #top-row .product-li{
