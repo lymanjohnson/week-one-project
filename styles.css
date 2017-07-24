@@ -312,7 +312,7 @@ margin: 2%;
   padding: 75px 0px 75px 0px;
   background-image: url("./images/background-3.jpg");
   background-size: cover;
-  background-position: fixed;
+  background-attachment: fixed;
 }
 
 .big-white-text{
