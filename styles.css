@@ -94,7 +94,7 @@ header{
 
 footer{
   height: 30px;
-  background-color: #131511;
+  background-color: #2B2F26;
 
 }
 
@@ -177,7 +177,7 @@ footer p{
 }
 
 #top-row .content-box{
-  background-color: #131511;
+  background-color: #2B2F26;
   color: white;
   display: inline-block;
   padding: 10px;
@@ -186,7 +186,7 @@ footer p{
 }
 
 #bottom-row .content-box{
-  background-color: #131511;
+  background-color: #2B2F26;
   color: white;
   display: inline-block;
   padding: 10px;
@@ -262,8 +262,11 @@ form{
   margin:2%;
   font-size: .7em;
   text-transform: none;
-  /*Button Background (Hover): #967343
-  Button Text (Hover): #FFFFFF*/
+}
+
+#signupButton:hover{
+  background-color: #967343;
+  color: #FFFFFF
 }
 
   /*About Page*/
@@ -274,7 +277,7 @@ form{
   padding: 75px 0px 75px 0px;
   background-image: url("./images/background-3.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: fixed;
 }
 
 .big-white-text{
@@ -313,7 +316,7 @@ blockquote{
 
 table, thead, th, td{
   border-collapse: collapse;
-  border: 1px solid #046c97;
+  border: 1px solid #968772;
   padding: 10px 10px 10px 10px;
 
 }
@@ -323,7 +326,7 @@ table, thead, th, td{
 }
 
 #row1, #row3{
-  background-color: #968772;
+  background-color: #F2DFDC;
 }
 
 /*table{
