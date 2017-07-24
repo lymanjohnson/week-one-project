@@ -63,6 +63,7 @@ p a {
 }
 
 p a:hover{
+  transition-duration: 1s;
   color: #967343;
 }
 
@@ -89,6 +90,7 @@ header{
 }
 
 #logo:hover{
+  transition-duration: 1s;
   background:transparent url('images/bent-creek-logo-coral.png') center top no-repeat;
   background-size: 25px;
 }
@@ -115,6 +117,7 @@ header{
 }
 
 .nav-button a:hover{
+  transition-duration: 1s;
   color: #CD5D67;
 }
 
@@ -123,6 +126,7 @@ header{
 }
 
 #current-page a:hover {
+  transition-duration: 1s;
   color: #CD5D67;
 }
 
@@ -141,6 +145,13 @@ footer p{
 
 /*Index Page Pictures Stuff*/
 
+#rows-container{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content:stretch;
+}
+
 #top-row{
   display:flex;
   flex-wrap: nowrap; /*don't really need this*/
@@ -149,6 +160,8 @@ footer p{
   list-style: none;
   padding: 0px;
   height: 325px;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
 
 #bottom-row{
@@ -160,6 +173,8 @@ footer p{
   padding: 0px;
   height: 200px;
   margin-top: -15px;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
 
 #top-row .product-li{
@@ -177,6 +192,7 @@ footer p{
   background: url(./images/product-1.jpg);
   background-position: center;
 }
+
 #product2{
   background: url(./images/product-2.jpg);
   flex-grow: 1;
@@ -300,6 +316,7 @@ margin: 2%;
 }
 
 #signupButton:hover{
+  transition-duration: 1s;
   background-color: #967343;
   color: #FFFFFF
 }
