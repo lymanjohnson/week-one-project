@@ -4,7 +4,7 @@
 
   <head>
 
-    <title>Bent Creek Ceramics</title>
+    <title>Bent Creek Ceramics - Newsletter</title>
 
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
     <link href="meyers.css" rel="stylesheet">
@@ -16,20 +16,18 @@
 
   <body>
 
+    <header>
+
+          <a href="./index.html"><img src="images/bent-creek-logo.png" id="logo"></a>
+        <ul class="nav-container">
+          <li class ="nav-button"><a href=./index.html>Home</a></li>
+          <li class="nav-button"><a href="./about.html">About</a></li>
+          <li class="nav-button"><a href="./newsletter.html">Newsletter</a></li>
+        </ul>
+
+    </header>
+
     <div id="wrapper">
-
-      <header>
-
-          <!-- <div id="logo-container"> -->
-            <a href="./index.html"><img src="images/bent-creek-logo.png" id="logo"></a>
-          <!-- </div> -->
-          <ul class="nav-container">
-            <li class ="nav-button"><a href=./index.html>Home</a></li>
-            <li class="nav-button"><a href="./about.html">About</a></li>
-            <li class="nav-button"><a href="./newsletter.html">Newsletter</a></li>
-          </ul>
-
-      </header>
 
       <main id = "newsletter-bg">
 
@@ -43,15 +41,15 @@
           </div>
 
             <div class="form-wrapper">
-                <input type="text" name="name_input" id="name_input" placeholder="Name">
+                <input type="text" name="nameInput" id="nameInput" placeholder="Name">
             </div>
 
             <div class="form-wrapper">
-                <input type="text" name="email_input" id="email_input" placeholder="Email">
+                <input type="email" name="emailInput" id="emailInput" placeholder="Email">
             </div>
 
             <div id="submit_container">
-                <input type="submit" value="Submit" id="submit_button">
+                <input type="submit" value="Submit" id="signupButton">
             </div>
 
           </div>

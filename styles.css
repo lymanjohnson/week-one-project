@@ -64,7 +64,11 @@ header{
   height: 40px;
   background-color: #FFFFFF;
   z-index: 200;
+  position: fixed;
+  width: 100%;
+  margin-top: -10px;
 }
+
 #logo{
   position: absolute;
   width: 25px;
@@ -226,14 +230,14 @@ form{
   margin-top: 5%;
 }
 
-#name_input{
+#nameInput{
   border: none;
   font-family: 'Merriweather', sans-serif;
   font-size: .7em;
   width: 100%;
 }
 
-#email_input {
+#emailInput {
   border: none;
   font-family: 'Merriweather', sans-serif;
   font-size: .7em;
@@ -250,7 +254,7 @@ form{
   text-align: center;
 }
 
-#submit_button{
+#signupButton{
   background-color: #968772;
   border-radius: 2px;
   color: #F2F1E8;
