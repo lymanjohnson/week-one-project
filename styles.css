@@ -93,6 +93,8 @@ header{
   background:transparent url('images/bent-creek-logo.png') center top no-repeat;
   background-size: 25px;
   z-index: 400;
+  border: none;
+  outline: none;
 }
 
 #logo:hover{
