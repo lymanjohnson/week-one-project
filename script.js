@@ -1,4 +1,4 @@
-const button = document.getElementById("nightmode-button");
+const button = document.getElementById("logo");
 
 button.addEventListener("click", toggleDayNight); //do not need () when referring to the "toggle" function here
 
