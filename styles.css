@@ -27,17 +27,25 @@ font-family: 'Merriweather', sans-serif;
   margin: 0 auto;
 }
 
-h1, h3 {
+h1, h2, h3 {
   font-family: 'Merriweather', serif;
   /*color: #131511;*/
 }
 
-.day h1, h3 {
+.day h1, .day h2, .day h3, .day p, .day blockquote {
   color: #131511;
 }
 
-.night h1, h3 {
+.night h1, .night h2, .night h3, .night p, .night blockquote {
   color: #ababab;
+}
+
+.day th, .day td {
+  color: #131511;
+}
+
+.night th, .night td {
+  color: #bbbbbb;
 }
 
 body {
@@ -76,18 +84,22 @@ h3{
   font-weight: 100;
 }
 
-
 .day p a {
   color: #968772;
 }
 
-.night p a {
-  color: #41321d;
-}
-
-p a:hover{
+.day p a:hover{
   transition-duration: 1s;
   color: #967343;
+}
+
+.night p a {
+  color: #cbb797;
+}
+
+.night p a:hover{
+  transition-duration: 1s;
+  color: #f2b867;
 }
 
 p {
@@ -110,7 +122,7 @@ header{
   }
 
 .night header{
-  background-color: #black;
+  background-color: black;
 }
 
 #logo{
@@ -159,20 +171,34 @@ header{
   margin: 12px 30px 0px 30px;
 }
 
-.nav-button a{
+.day .nav-button a{
   color: #2B2F26;
 }
+
+.night .nav-button a{
+  color: #50544a;
+}
+
 
 .nav-button a:hover{
   transition-duration: 1s;
   color: #CD5D67;
 }
 
-#current-page a {
+.day #current-page a {
   color: #968772;
 }
 
-#current-page a:hover {
+.day #current-page a:hover {
+  transition-duration: 1s;
+  color: #CD5D67;
+}
+
+.night #current-page a {
+  color: #8f8d8b;
+}
+
+.night #current-page a:hover {
   transition-duration: 1s;
   color: #CD5D67;
 }
@@ -191,9 +217,16 @@ footer{
 
 footer p{
   font: inherit;
-  color: white;
   margin-left: 20px;
   padding-top: 8px;
+}
+
+.day footer p{
+  color: white;
+}
+
+.night footer p{
+  color: white;
 }
 
 /*Index Page Pictures Stuff*/
@@ -281,22 +314,24 @@ footer p{
 
 #top-row .content-box{
   color: white;
-  display: inline-block;
+  display: inline-;
   padding: 10px;
   position: absolute;
   margin-top: 250px;
 }
 
 #top-row .day{
+  color: white;
   background-color: #2B2F26;
 }
 
 #top-row .night{
-  background-color: #43473d;
+  color: white;
+  background-color: #11120f;
 }
 
 #bottom-row .content-box{
-  color: white;
+
   display: inline-block;
   padding: 10px;
   position: absolute;
@@ -304,11 +339,13 @@ footer p{
 }
 
 #bottom-row .day{
+  color: white;
   background-color: #2B2F26;
 }
 
 #bottom-row .night{
-  background-color: #43473d;
+  color: white;
+  background-color: #11120f;
 }
 
  /*Newsletter */
@@ -323,28 +360,21 @@ body[id="newsletter-body"]{
   /*width: 100%;*/
 }
 
-
-input[type="submit"]{
-  background-color: #1fabe5;
-  color: white;
-  font: inherit;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 15px 20px 15px 20px;
-  border-radius: 6px;
-  width: auto;
-  height: auto;
-  border: none;
-}
-
 form{
-  /*margin: 13%;*/
-  background-color: white;
+  /*margin: 13%;*/=
   width: auto;
   padding: 10px 40px 10px 40px;
   z-index: 100;
   position: absolute;
   /*margin-top: 10%;*/
+}
+
+.day form{
+  background-color: white;
+}
+
+.night form{
+  background-color: black;
 }
 
 #form-flex-wrapper{
@@ -388,13 +418,29 @@ margin: 2%;
 }
 
 #signupButton{
-  background-color: #968772;
+  font: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  /*padding: 15px 20px 15px 20px;*/
+  border-radius: 6px;
+  width: auto;
+  height: auto;
+  border: none;
   border-radius: 2px;
-  color: #F2F1E8;
   padding: 2% 4% 2% 4%;
   margin:2%;
   font-size: .7em;
   text-transform: none;
+}
+
+#signupButton[class="day"]{
+  background-color: #968772;
+  color: #F2F1E8;
+}
+
+#signupButton[class="night"]{
+  background-color: #322d27;
+  color: #817f7f;
 }
 
 #signupButton:hover{
@@ -414,7 +460,7 @@ margin: 2%;
   background-attachment: fixed;
 }
 
-.big-white-text{
+#big-white-text{
   color: white;
 }
 
@@ -467,8 +513,12 @@ table, thead, th, td{
   padding: 0px 100px 50px 100px;
 }
 
-#row1, #row3{
+.day #row1, .day #row3{
   background-color: #F2DFDC;
+}
+
+.night #row1, .night #row3{
+  background-color: #695653;
 }
 
 /*table{
