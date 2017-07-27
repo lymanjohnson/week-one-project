@@ -392,9 +392,8 @@ form{
   /*width: 90%;*/
 }
 
-.input-line{
+.input-line {
 border: none;
-border-bottom: 1px solid #968772;
 font-family: 'Merriweather', sans-serif;
 font-size: .7em;
 width: 85%;
@@ -403,7 +402,27 @@ margin: 2%;
 
 .input-line:focus{
   outline: none;
+}
+
+.day .input-line {
+border-bottom: 1px solid #968772;
+}
+
+.day .input-line:focus{
   border-bottom: 1px solid #967343;
+}
+
+
+.night .input-line {
+border-bottom: 1px solid #c4bbaf;
+background-color: black;
+color: white
+}
+
+.night .input-line:focus{
+  border-bottom: 1px solid #bea37d;
+  background-color: black;
+  color: white;
 }
 
 
