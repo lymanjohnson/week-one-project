@@ -352,12 +352,18 @@ footer p{
 
 
 body[id="newsletter-body"]{
-  background-image: url(./images/background-2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
   background-size: cover;
-  /*width: 100%;*/
+}
+
+body[id="newsletter-body"][class="day"]{
+  background-image: url(./images/background-2.jpg);
+}
+
+body[id="newsletter-body"][class="night"]{
+  background-image: url(./images/background-2-dark.jpg);
 }
 
 form{
